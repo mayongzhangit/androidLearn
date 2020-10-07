@@ -1,0 +1,6 @@
+include ':ch4-gridlayout-qqchat'
+include ':ch3-framelayout-color'
+include ':ch2-linearlayout-wechat-login'
+include ':ch1-relativelayout-car'
+include ':app'
+rootProject.name = "androidLearn"

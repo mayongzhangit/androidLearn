@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:foreground="@mipmap/dnf"
+    android:foregroundGravity="right|bottom"
+
+    tools:context=".MainActivity">
+
+    <!--相当于是立体的，往上叠-->
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:text="280dp大小"
+        android:background="#009688"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:text="230dp大小"
+        android:background="#447719"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:text="180dp大小"
+        android:background="#491161"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        />
+</FrameLayout>
