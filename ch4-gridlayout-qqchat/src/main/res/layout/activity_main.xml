@@ -13,7 +13,10 @@
 
     tools:context=".MainActivity">
 
-    <!-- 使用rowSpan或者columnSpan需要将layoutGravity=fill才能让组件横跨行或者列-->
+    <!-- 使用rowSpan或者columnSpan需要将layoutGravity=fill才能让组件横跨行或者列
+
+        背景图片还不会用啊！！！文字不能占据行数大小怎么跟背景图适配？
+    -->
     <TextView
         android:layout_row="0"
         android:layout_column="1"

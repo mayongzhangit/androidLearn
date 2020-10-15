@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@mipmap/relativelayout_car"
     android:id="@+id/relative_layout_car"
+
     tools:context=".MainActivity">
 
     <TextView
